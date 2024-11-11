@@ -1,0 +1,56 @@
+Votre Objectif
+
+En utilisant les tables fournies - Produits, Clients, Commandes, Détails de la commande et Types de produits - l'objectif est de formuler des requêtes SQL pour récupérer des données pertinentes à l'aide du langage de requête de données (DQL).
+
+Tableau des produits :
+
+Enregistrement 1 : (ProductID = 1, ProductName = « Widget A », ProductType = « Widget », Price = 10,00)
+Enregistrement 2 : (ProductID = 2, ProductName = « Widget B », ProductType = « Widget », Price = 15,00)
+Enregistrement 3 : (ProductID = 3, ProductName = « Gadget X », ProductType = « Gadget », Price = 20,00)
+Enregistrement 4 : (ProductID= 4, ProductName= "Gadget Y", ProductType= "Gadget", Price= 25,00)
+Enregistrement 5 : (ProductID= 5, ProductName= "Doohickey Z", ProductType= "Doohickey", Prix= 30,00)
+Tableau des clients :
+
+Enregistrement 1 : (CustomerID = 1, CustomerName = « John Smith », Email = « john@example.com », Téléphone = « 123-456-7890 »)
+Enregistrement 2 : (CustomerID = 2, CustomerName = « Jane Doe », Email = « jane.doe@example.com », Téléphone = « 987-654-3210 »)
+Enregistrement 3 : (CustomerID = 3, CustomerName = « Alice Brown », Email = « alice.brown@example.com », Téléphone = « 456-789-0123 »)
+Tableau des commandes :
+
+Enregistrement 1 : (OrderID = 101, CustomerID = 1, OrderDate = "2024-05-01")
+Enregistrement 2 : (OrderID = 102, CustomerID = 2, OrderDate = "2024-05-02")
+Enregistrement 3 : (OrderID = 103, CustomerID = 3, OrderDate = "2024-05-01")
+Tableau des détails de la commande :
+
+Enregistrement 1 : (OrderDetailID = 1, OrderID = 101, ProductID = 1, Quantity = 2)
+Enregistrement 2 : (OrderDetailID = 2, OrderID = 101, ProductID = 3, Quantity = 1)
+Enregistrement 3 : (OrderDetailID = 3, OrderID = 102, ProductID = 2, Quantity = 3)
+Enregistrement 4 : (OrderDetailID = 4, OrderID = 102, ProductID = 4, Quantity = 2)
+Enregistrement 5 : (OrderDetailID = 5, OrderID = 103, ProductID = 5, Quantity = 1)
+Tableau des types de produits :
+
+Enregistrement 1 : (ProductTypeID= 1, ProductTypeName= "Widget")
+Enregistrement 2 : (ProductTypeID= 2, ProductTypeName= "Gadget")
+Enregistrement 3 : (ProductTypeID = 3, ProductTypeName = "Doohickey")
+
+Instructions
+
+Récupérer tous les produits.
+Récupérer tous les clients.
+Récupérer toutes les commandes.
+Récupérer tous les détails de la commande.
+Récupérer tous les types de produits.
+Récupérez les noms des produits qui ont été commandés par au moins un client, ainsi que la quantité totale de chaque produit commandé.
+
+Récupérez les noms des clients qui ont passé une commande chaque jour de la semaine, ainsi que le nombre total de commandes passées par chaque 
+
+Récupérez les noms des clients ayant passé le plus de commandes, ainsi que le nombre total de commandes passées par chaque client.
+
+Récupérez les noms des produits les plus commandés, ainsi que la quantité totale de chaque produit commandé.
+
+Récupérer les noms des clients ayant passé commande pour au moins un widget.
+
+Récupérez les noms des clients ayant passé commande d'au moins un widget et d'au moins un gadget, ainsi que le coût total des widgets et gadgets commandés par chaque client.
+Récupérez les noms des clients ayant passé commande d'au moins un gadget, ainsi que le coût total des gadgets commandés par chaque client.
+Récupérez les noms des clients ayant passé commande d'au moins un bidule, ainsi que le coût total des bidules commandés par chaque client.
+Récupérez les noms des clients qui ont passé une commande chaque jour de la semaine, ainsi que le nombre total de commandes passées par chaque client.
+Récupérez le nombre total de widgets et de gadgets commandés par chaque client, ainsi que le coût total des commandes.
